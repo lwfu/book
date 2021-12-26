@@ -1,0 +1,31 @@
+.grid {
+    margin: auto;
+    width: 500px;
+    text-align: center;
+}
+
+.grid table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.grid th,
+td {
+    padding: 10px;
+    border-bottom: 1px dashed orange;
+    border-left: 1px dashed orange;
+    border-right: 1px dashed orange;
+    height: 35px;
+    line-height: 35px;
+}
+
+.grid thead th {
+    background-color: orange;
+}
+
+.book {
+    padding: 5px;
+    background-color: orange;
+    border-left: 1px dashed orange;
+    border-right: 1px dashed orange;
+}
